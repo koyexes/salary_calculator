@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/koyexes/salary_calculator#readme",
   "dependencies": {
-    "jasmine": "^2.5.3"
+    "jasmine": "^2.5.3",
+    "jasmine-matchers": "^0.2.3"
+  },
+  "devDependencies": {
+    "jasmine-expect": "^3.0.1"
   }
 }
