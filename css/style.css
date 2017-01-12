@@ -60,6 +60,7 @@ table{
 	padding: 10px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	display: none;
 }
 
 input[type="number"] {
