@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Salary Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+		<h1 class="header">Salary Calculator</h1>
+		<div class="wrapper">
+			<div class="salary-div">
+				<div class="salary">
+					<label for="name">Name:</label>
+					<input type="text" id="name" required>
+				</div>
+				<div class="salary">
+					<label for="employee-type">Type:</label>
+					<select name="type" id="type"  required>
+						<option value="intern" id="intern">Intern</option>
+						<option value="associate" id="associate">Associate</option>
+						<option value="manager" id="manager">Manager</option>
+						<option value="executives" id="executives">Executive</option>
+						<option value="director" id="director">Director</option>
+					</select>
+				</div>
+				<div  class="salary">
+					<label for="Level">Level:</label>
+					<select name="level" id="level"  required>
+						<option value="0" id="zero">0-5yrs</option>
+						<option value="1" id="one">6-10yrs</option>
+						<option value="2" id="two">11-15yrs</option>
+						<option value="3" id="three">16-Above</option>
+					</select>
+				</div>
+				<div class="salary">
+					<label for="overtime">Overtime:</label>
+					<input type="number" min="1" id="overtime" required placeholder="0 hr"> 
+				</div>
+
+				<div class="show-salary"></div>
+
+				<button class="btn" id="btn">Calculate</button>
+				<button class="btn" id="btn">Clear</button>
+
+			</div>
+		</div>
+	
+	<script>
+		$(document).ready(function() {
+			console.log("worked");
+		});
+	</script>
+</body>
+</html>
