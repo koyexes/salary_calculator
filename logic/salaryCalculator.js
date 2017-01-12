@@ -44,7 +44,7 @@ var salaryCalculator = (employeeName, employeeType, experience, overtimeHours) =
             var overtimePay, tax, benefit, netSalary;
             overtimePay = overtimeHours * overtimeRate[employeeType];
             tax = basicSalary[employeeType] * taxRates[employeeType];
-            benefit = experienceBenefits[employeeType][experience];
+            benefit = (employeeType === "intern") ? 0 : experienceBenefits[employeeType][experience];
             netSalary = (basicSalary[employeeType] - tax) + overtimePay + benefit;
             output.basicSalary = basicSalary[employeeType];
             output.netSalary = netSalary;
@@ -59,4 +59,3 @@ var salaryCalculator = (employeeName, employeeType, experience, overtimeHours) =
 
 }
 
-module.exports = salaryCalculator;

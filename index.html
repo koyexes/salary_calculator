@@ -6,7 +6,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="./connector.js"></script>
+	<script src="./logic/salaryCalculator.js"></script>
+
 </head>
 <body>
 		<h1 class="header">Salary Calculator</h1>
@@ -39,10 +40,7 @@
 					<label for="overtime">Overtime:</label>
 					<input type="number" min="1" id="overtime" required placeholder="0 hr"> 
 				</div>
-				<button class="btn" id="btn">Calculate</button>
-				<div class="show-salary"></div>
-
-				<button class="btn" id="btn" >Calculate</button>
+				<button class="btn" id="btn" onclick="calculate()" >Calculate</button>
 				<button class="btn" id="btn">Clear</button>
 
 			</div>
@@ -55,27 +53,46 @@
 			  </tr>
 			  <tr>
 			    <td>Name:</td>
-			    <td  class="output">Smith</td> 
+			    <td id="outputName" class="output"></td>
 			  </tr>
 			  <tr>
 			    <td>Type:</td>
-			    <td  class="output">intern</td> 
-			  </tr>
-			  <tr>
-			    <td>Level:</td>
-			    <td class="output">0 yrs</td> 
+			    <td id="outputType" class="output"></td>
 			  </tr>
 				<tr>
 			    <td>Basic Salary:</td>
-			    <td class="output">#20000</td> 
+			    <td id="outputSalary" class="output"></td>
 			  </tr>
+			<tr>
+			    <td>Tax:</td>
+			    <td id="outputTax" class="output"></td>
+			  </tr>
+			<tr>
+			    <td>Net Salary:</td>
+			    <td id="outputNetsalary" class="output"></td>
+			</tr>
 			</table>
 		</div>
-	
+
 	<script>
 		$(document).ready(function() {
 			console.log("worked");
 		});
+		function calculate() {
+			var output =	salaryCalculator(document.getElementById("name").value,document.getElementById("type").value, document.getElementById("level").value, document.getElementById("overtime").value );
+			if( !output.hasOwnProperty('error')){
+			    document.getElementById("outputName").innerHTML = output.employeeName;
+				document.getElementById("outputType").innerHTML = output.employeeType;
+				document.getElementById("outputSalary").innerHTML = output.basicSalary;
+				document.getElementById("outputTax").innerHTML = output.tax;
+				document.getElementById("outputNetsalary").innerHTML = output.netSalary;
+				document.getElementsByClassName("show-salary")[0].style.display = "block";
+			} else {
+			    var error = output.error.join("\n");
+			    alert(error);
+			}
+        }
+
 	</script>
 </body>
 </html>
