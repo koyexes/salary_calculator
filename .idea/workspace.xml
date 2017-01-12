@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf09893c-e683-42ef-9895-b7c39c487a10" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+>>>>>>> Added connector.js
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,12 +25,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
               <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1073">
+              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="e#1935#1966#0" expanded="true" />
+              </folding>
+>>>>>>> Added connector.js
             </state>
           </provider>
         </entry>
@@ -48,7 +64,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/salaryCalculator.js" />
         <option value="$PROJECT_DIR$/logic/salaryCalculator.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/style.css" />
+=======
+        <option value="$PROJECT_DIR$/connector.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> Added connector.js
       </list>
     </option>
   </component>
@@ -90,6 +111,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="salary_calculator" />
@@ -118,6 +140,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> Added connector.js
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -130,6 +154,10 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< HEAD
+=======
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/KOYA GABRIEL/Desktop/salary_calculator/index.html" />
+>>>>>>> Added connector.js
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -217,7 +245,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7735000" />
+=======
+    <option name="totallyTimeSpent" value="9068000" />
+>>>>>>> Added connector.js
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -352,9 +384,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/salaryCalculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="651">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <marker date="1484233696136" expanded="false" signature="0:43" ph="/** Created by koyexes on 1/12/2017. ...*/" />
+            <marker date="1484233696136" expanded="true" signature="64:183" ph="{...}" />
+            <marker date="1484233696136" expanded="true" signature="200:313" ph="{...}" />
+            <marker date="1484233696136" expanded="true" signature="334:448" ph="{...}" />
+            <marker date="1484233696136" expanded="true" signature="475:650" ph="{...}" />
+            <marker date="1484233696136" expanded="true" signature="735:1870" ph="{...}" />
+            <marker date="1484233696136" expanded="true" signature="1250:1847" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <marker date="1484234816965" expanded="true" signature="0:43" ph="/** Created by koyexes on 1/12/2017. ...*/" />
+            <marker date="1484234816965" expanded="true" signature="128:1960" ph="{...}" />
+            <marker date="1484234816965" expanded="true" signature="152:271" ph="{...}" />
+            <marker date="1484234816965" expanded="true" signature="288:401" ph="{...}" />
+            <marker date="1484234816965" expanded="true" signature="422:536" ph="{...}" />
+            <marker date="1484234816965" expanded="true" signature="563:738" ph="{...}" />
+            <marker date="1484234816965" expanded="true" signature="823:1958" ph="{...}" />
+            <marker date="1484234816965" expanded="true" signature="1338:1935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#1935#1966#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

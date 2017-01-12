@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="./connector.js"></script>
 </head>
 <body>
 		<h1 class="header">Salary Calculator</h1>
@@ -38,8 +39,10 @@
 					<label for="overtime">Overtime:</label>
 					<input type="number" min="1" id="overtime" required placeholder="0 hr"> 
 				</div>
-
 				<button class="btn" id="btn">Calculate</button>
+				<div class="show-salary"></div>
+
+				<button class="btn" id="btn" >Calculate</button>
 				<button class="btn" id="btn">Clear</button>
 
 			</div>
